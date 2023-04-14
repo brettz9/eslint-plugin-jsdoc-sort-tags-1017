@@ -1,0 +1,30 @@
+{
+  "private": true,
+  "name": "eslint-plugin-jsdoc-sort-tags-1017",
+  "version": "0.1.0",
+  "author": "Brett Zamir <brettz9@yahoo.com>",
+  "contributors": [],
+  "description": "testing https://github.com/gajus/eslint-plugin-jsdoc/pull/1017",
+  "license": "MIT",
+  "keywords": [],
+  "main": "src/index.js",
+  "scripts": {
+    "eslint": "eslint . --fix",
+    "lint": "npm run eslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brettz9/eslint-plugin-jsdoc-sort-tags-1017.git"
+  },
+  "bugs": {
+    "url": "https://github.com/brettz9/eslint-plugin-jsdoc-sort-tags-1017/issues"
+  },
+  "homepage": "https://github.com/brettz9/eslint-plugin-jsdoc-sort-tags-1017",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "devDependencies": {
+    "eslint": "latest",
+    "eslint-plugin-jsdoc": "https://github.com/brettz9/eslint-plugin-jsdoc#sort-tags-lines-dist"
+  }
+}
