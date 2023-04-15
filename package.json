@@ -9,6 +9,7 @@
   "keywords": [],
   "main": "src/index.js",
   "scripts": {
+    "public": "eslint --max-warnings=0 public-param/ --fix",
     "eslint": "eslint . --fix",
     "lint": "npm run eslint"
   },
